@@ -4,19 +4,19 @@ a simple,fast and lightweight userAgent detection library
 ## about author
 author：Jack Cai
 
-website: http://caibaojian.com
+blog: [http://caibaojian.com](http://caibaojian.com)
 
-weibo: http://weibo.com/kujian
+weibo: [http://weibo.com/kujian](http://weibo.com/kujian)
 
 ## How to use
 
-First, include the script somewhere on your page — usually either in the <head> or just before the </body> closing tag. No need to initialize or do anything else really, all the feature tests are now available for usage:
+First, include the script somewhere on your page — usually either in the <head> or just before the </body> closing tag. No need to initialize or do anything else really, all the useragent tests are now available for usage:
 
 ```javascript
 if(useragent.mobile){
-console.log('useragent is mobile');
+console.log("useragent is mobile");
 }else{
-console.log('useragent isn't mobile');
+console.log("useragent isn't mobile");
 }
 ```
 
@@ -60,6 +60,7 @@ When you want to target JavaScript only towards browsers useragent you need, you
 
 Below you’ll find a list of all the available browser feature tests and how to call them.
 
+```javascript
 useragent.windows
 useragent.android
 useragent.ios
@@ -77,6 +78,7 @@ useragent.qq
 useragent.qzone
 useragent.qqbrowser
 useragent.ucbrowser
+```
 
 ## Changelog
 
